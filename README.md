@@ -14,8 +14,7 @@ Localizar e copiar arquivos para a pasta de destino.
 ```os.path```
 ```shutil```
 
-## Backlog
-
+## Etapas implementadas
 - [x] Identificar a pasta de origem
 - [x] Identificar a pasta de destino 
 - [x] Como identificar o(s) arquivo(s)
@@ -23,6 +22,10 @@ Localizar e copiar arquivos para a pasta de destino.
 - [x] Criar função para copiar o(s) arquivo(s)
 - [x] Imprimir no console os arquivos que foram copiados com sucesso
 
+## Backlog
+- [ ] Mover arquivo(s)
+- [ ] Manipular arquivo(s)
+
 # Conclusão
 
-Me deparei em uma situação em que precisava localizar alguns arquivos no meio de uma pasta com vários. Como a nomenclatura era confusa, poderia correr o risco de deixar de copiar algum desses arquivos importantes, foi mais confiável desenvolver esse script para localizar e separar esses arquivos, realizando uma cópia deles em outra pasta, a de destino.
+Me deparei em uma situação em que precisava localizar alguns arquivos no meio de uma pasta com vários. Como a nomenclatura era confusa, poderia correr o risco de deixar de copiar algum desses arquivos importantes. Por se tratar de arquivos de retornos financeiros que impactaria na duplicidade de arrecadações caso fosse importado algum arquivo errado, foi mais confiável desenvolver esse script para localizar e separar esses arquivos, realizando uma cópia deles em outra pasta, a de destino, na qual, eu pude validar conforme minha necessidade.
