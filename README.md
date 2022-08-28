@@ -5,8 +5,9 @@ Localizar e copiar arquivos para a pasta de destino.
 
 1. Local onde os arquivos estão armazenados ```path_origin = os.path.expanduser(r"~\Downloads")```
 
-2. Qual informação tem no nome do arquivo que será possível diferenciá-lo dos demais?
-```identify_file = ".TXT"```
+2. Qual informação tem no nome do arquivo que será possível diferenciá-lo dos demais? ```identify_file = ".TXT"```
+> Não necessariamente precisa ser a extensão do arquivo. No meu caso, eu precisei pesquisar por uma informação que tinha no meio do nome.
+Só substituir o ".TXT". 
 
 3. Para qual pasta deseja copiar os arquivos? Se quiser copiar para uma outra pasta dentro de Documents só alterar para: ```os.path.expanduser(r"~\Documents/NOVA-PASTA")```
 
