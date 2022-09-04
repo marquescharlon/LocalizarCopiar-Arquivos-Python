@@ -12,5 +12,7 @@ def copy(path_origin, identify_file, path_destination):
                 try:
                     shutil.copy(f"{path_origin}/{file}", f"{path_destination}/{file}")
                     print('Arquivo ' + file + ' copiado com sucesso para (' + path_destination + ')!')
+                except NameError as error:
+                    print (error)
                 except:
-                    pass
+                    print('Arquivo ' + file + ' não copiado.!')
