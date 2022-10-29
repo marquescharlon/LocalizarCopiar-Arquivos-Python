@@ -1,5 +1,5 @@
-# Localizar arquivos usando Python
-Localizar e copiar arquivos para a pasta de destino.
+# Localizar e Copiar arquivos usando Python
+Identificar arquivos que seguem o mesmo padrão dentro da pasta de origem e copiá-los para pasta de destino.
 
 ## Parâmetros
 
