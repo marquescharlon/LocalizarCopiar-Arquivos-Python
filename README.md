@@ -21,7 +21,11 @@ Só substituir o ".TXT".
 - [x] Como identificar o(s) arquivo(s)
 - [x] Criar função para obter a lista de arquivo(s)
 - [x] Criar função para copiar o(s) arquivo(s)
+- [x] Criar diretório de destino
+- [x] Validar se o diretório de destino existe
+- [x] Permitir excluir ou não o diretório de destino antes de copiar os arquivos
 - [x] Imprimir no console os arquivos que foram copiados com sucesso
+
 
 ## Backlog
 - [ ] Mover arquivo(s)
